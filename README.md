@@ -1,0 +1,2 @@
+# UpdateEldenRingSeamlessCoop
+Update EldenRingSeamlessCoop easier
