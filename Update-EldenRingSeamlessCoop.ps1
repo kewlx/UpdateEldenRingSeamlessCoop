@@ -25,7 +25,7 @@ function Update-EldenRingSeamlessCoop {
     [CmdletBinding(SupportsShouldProcess)]
     param (
         [Parameter()]
-        [ValidateNotNullOrEmpty]
+        #[ValidateNotNullOrEmpty]
         [string]$Password = (-join ((65..90) + (97..122) | Get-Random -Count 5 | ForEach-Object {[char]$_}))
     )
     
